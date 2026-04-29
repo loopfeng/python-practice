@@ -1,4 +1,4 @@
-#01 Calculate and display the sum of two number intergers
+#01 Calculate and display the sum of any two number intergers
 
 #Practice version
 num1 = int(input("Enter the first number : "))
