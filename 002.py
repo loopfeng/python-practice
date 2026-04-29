@@ -1,5 +1,5 @@
-#Tính tổng hai số nguyên bất kỳ(Có xử lý ngoại lệ đầu vào)
-#Nhap gia tri thu nhat va chuyen sang kieu so nguyen
+#Calculate the sum of any two integers (with input exception handling)
+#Enter the first value and convert it to an integer
 try:
     print('Nhap so thu nhat')
     so1 = int(input())

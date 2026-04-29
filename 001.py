@@ -1,4 +1,4 @@
-#01 Calculate and display the sum of any two number intergers
+#01 Calculate and display the sum of any two number integers
 
 #Practice version
 num1 = int(input("Enter the first number : "))
@@ -7,6 +7,6 @@ total = num1 + num2
 print("The sum of two number is:", total)
 
 #Improved version
-num1 = int(input("Enter the first number: "))# Convert interger
-num2 = int(input("Enter the second number: "))# Convert interger
+num1 = int(input("Enter the first number: "))# Convert integer
+num2 = int(input("Enter the second number: "))# Convert integer
 print("The sum of two number is:", num1 + num2)
