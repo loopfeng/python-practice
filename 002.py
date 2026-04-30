@@ -1,15 +1,15 @@
 #Calculate the sum of any two integers (with input exception handling)
 #Enter the first value and convert it to an integer
 try:
-    print('Nhap so thu nhat')
-    so1 = int(input())
+    print('Enter the first number: ')
+    num1 = int(input())
 
-#Nhap gia tri thu hai va chuyen sang kieu so nguyen
-    print('Nhap so thu hai')
-    so2 = int(input())
-    tong = so1 + so2 #Tinh tong hai so
+#Enter the second value and convert it to an integer
+    print('Enter the second number: ')
+    num2 = int(input())
+    sum = num1 + num2 #Calculate the sum of two numbers
 
-#In tong hai so ra man hinh
-    print("tong hai so la: ", tong)    
+#Display the sum of two numbers on the screen
+    print("The sum of two number is: ", sum)    
 except:
-    print("Định dạng đầu vào không hợp lệ")
+    print("Invalid input format!")
