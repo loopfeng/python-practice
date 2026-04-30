@@ -1,11 +1,13 @@
-#Decimal
-giatri = input()
+# 05 Enter any decimal number and display it in octal(with input exception handling)
+value = input()
+
+# isParseDone = a variable used to check whether data processing (parsing) is done or not.
 isParseDone = False
 try:
-    sothapphan = int(giatri)
+    decimal = int(value)
     isParseDone = True
 except:
-    print("Định dạng đầu vào không hợp lệ!")
+    print("Invalit input format!")
 
 if isParseDone:
-    print("Số thập phân %d trong hệ bát phân là %o" % (sothapphan, sothapphan))
+    print("Decimal %d in octal is %o" % (decimal, decimal))

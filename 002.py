@@ -1,4 +1,4 @@
-#Calculate the sum of any two integers (with input exception handling)
+#02 Calculate the sum of any two integers (with input exception handling)
 #Enter the first value and convert it to an integer
 try:
     print('Enter the first number: ')

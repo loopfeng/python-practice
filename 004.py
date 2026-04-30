@@ -1,21 +1,23 @@
-#Nhập số bất kỳ ở hệ thập phân và hiển thị ra ở hệ bát phân
-"""Kiến thức cần có:
-Hàm input() và hàm print()
-Định dạng đầu ra trong Python
-Biến và kiểu dữ liệu
-"""
-#Code tự gõ
+#04 Enter any decimal number and display it in octal 
+
+#Self-written code
 a = float(input())
 b = float(a/8)
-print("So thap phan ", float(a), "trong he bat phan la ", float(b))
-#Code mẫu
-#Nhap gia tri tu ban phim va chuyen sang kieu so nguyen
-soThapPhan = int(input())
+print("Decimal number", float(a), "it octal is ", float(b))
 
-#Xuat cau voi dinh dang theo yeu cau de bai
-# %d dong vai tro giu cho cho 1 gia tri so thap phan
-# %o dong vai tro giu cho cho 1 gia tri so bat phan
-print('So thap phan %d trong he bat phan la %o' % (soThapPhan, soThapPhan))
-#Làm lại
-sothapphan = int(input())
-print("Số thập phân %d trong hệ bát phân là %o ----- %o" % (sothapphan, sothapphan, 9))
+#Sample code 
+#Input a value from the keyboard and convert it to integer 
+decimal = int(input())
+
+# Out the sentence in the required fromat
+# %d is used to hold a decimal integer value 
+# %o is used to hold an octal value 
+print('Decimal number %d in octal is %o' % (decimal, decimal))
+
+#Redo
+decimal = int(input())
+print("Decimal number %d in octal is %o ----- %o" % (decimal, decimal))
+
+#Redo (Recommended)
+num = int(input())
+print(f"Decimal number {num} in octal is {oct(num)[2:]}")# f = short for "formatted string"
