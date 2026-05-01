@@ -1,6 +1,7 @@
 #02 Calculate the sum of any two integers (with input exception handling)
-#Enter the first value and convert it to an integer
+
 try:
+#Enter the first value and convert it to an integer
     print('Enter the first number: ')
     num1 = int(input())
 

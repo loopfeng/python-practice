@@ -1,21 +1,20 @@
-#Viết chương trình làm tròn số thập phân A đến B chữ số sau dấu phẩy. 
-# A và B được nhập bất kỳ từ bàn phím.
-# Hiển thị số A sau khi được làm tròn ra màn hình.
-# Có xử lý ngoại lệ đầu vào
-giatriA = input()
-giatriB = input()
+"""write a program to round the decimal number A to B digits after the decimal point.
+A and B are entered from the keyboard. Display the rounded value of A on the screen
+(with input exception handling)"""
+valueA = input()
+valueB = input()
 
 isParseDone = False
 try:
-    soA = float(giatriA)
-    soB = int(giatriB)
+    numA = float(valueA)
+    numB = int(valueB)
     isParseDone = True
 except:
-    print('Định dạng đầu vào không hợp lệ!')
-    # Format 
+    print('Invalit input format!')
 
 if isParseDone:
-    print('Dùng format: {0:.{1}f}'.format(soA, soB))
-        #Dùng hàm round
-    formatedNum = round(soA, soB)
-    print('Dùng round', formatedNum)
+    # Format 
+    print('Dùng format: {0:.{1}f}'.format(numA, numB))
+    #Use the round() function
+    formatedNum = round(numA, numB)
+    print('round used', formatedNum)

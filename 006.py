@@ -1,10 +1,9 @@
-#Viết chương trình làm tròn số thập phân A đến B chữ số sau dấu phẩy. 
-# A và B được nhập bất kỳ từ bàn phím.
-# Hiển thị số A sau khi được làm tròn ra màn hình.
-a = float(input("Nhập số thập phân A: "))
-b = int(input("Nhập số nguyên dương B: "))
+"""06 Write a program to round the decimal number A to B digits after the decimal point.
+A and B are entered from the keyboard. Display the rounded value of A on the screen."""
+a = float(input("Enter the decimal number A: "))
+b = int(input("Enter an integer B: "))
 # Format 
-print('Dùng format: {0:.{1}f}'.format(a,b))
-#Dùng hàm round
+print('Format used: {0:.{1}f}'.format(a,b))
+#Use the rould() function
 formatedNum = round(a, b)
-print('Dùng round', formatedNum)
+print('rould used', formatedNum)
