@@ -16,7 +16,7 @@ print('Decimal number %d in octal is %o' % (decimal, decimal))
 
 #Redo
 decimal = int(input())
-print("Decimal number %d in octal is %o ----- %o" % (decimal, decimal))
+print("Decimal number %d in octal is %o" % (decimal, decimal))
 
 #Redo (Recommended)
 num = int(input())
